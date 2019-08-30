@@ -10,13 +10,41 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ArchitecturesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".MVC.MVCActivity"
+            android:parentActivityName=".ArchitecturesActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ArchitecturesActivity" />
+        </activity>
+
+        <activity
+            android:name=".MVP.MVPActivity"
+            android:parentActivityName=".ArchitecturesActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ArchitecturesActivity" />
+        </activity>
+
+        <activity
+            android:name=".MVVM.MVVMActivity"
+            android:parentActivityName=".ArchitecturesActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ArchitecturesActivity" />
+        </activity>
+
     </application>
 
     <dist:module dist:instant="true" />
