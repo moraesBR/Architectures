@@ -1,4 +1,4 @@
-package examples.architectures.model;
+package examples.architectures.MVVM.model;
 
 import com.google.gson.annotations.SerializedName;
 

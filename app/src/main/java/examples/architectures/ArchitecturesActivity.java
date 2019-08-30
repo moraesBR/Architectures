@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import examples.architectures.MVC.MVCActivity;
 import examples.architectures.MVP.MVPActivity;
-import examples.architectures.MVVM.MVVMActivity;
+import examples.architectures.MVVM.view.MVVMActivity;
 
 public class ArchitecturesActivity extends AppCompatActivity {
 

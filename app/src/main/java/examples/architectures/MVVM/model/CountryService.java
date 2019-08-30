@@ -1,4 +1,4 @@
-package examples.architectures.model;
+package examples.architectures.MVVM.model;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class CountryService {
-    public static final String BASE_URL = "https://restcountries.eu/rest/v2";
+    public static final String BASE_URL = "https://restcountries.eu/rest/v2/";
 
     private CountryAPI api;
 
